@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="mavenpocFlow" doc:id="08d1ab0c-ab7e-4324-a898-65c71b831467" >
 		<http:listener doc:name="Listener" doc:id="1820df0e-a919-48ce-afc8-04a1be28fad4" config-ref="HTTP_Listener_config" path="/maven"/>
 		<set-payload value="Test" doc:name="Set Payload" doc:id="23506b64-a3b4-493a-ad4d-598f3193fc22" />
+		<set-payload value="Hello" doc:name="Set Payload" doc:id="2c2f34e3-6983-4404-b21f-dd40255d8a0e" />
 	</flow>
 </mule>
